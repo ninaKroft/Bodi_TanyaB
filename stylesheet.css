@@ -1,3 +1,9 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+
 .nav {
     background-color:rgb(201, 172, 227);
 }
@@ -19,6 +25,8 @@
     background-image: url(./images/placeholder_fitness_image.jpeg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    margin-top: 0px;
+    margin-left: 0px;
 }
 
 .name_wrapper {
