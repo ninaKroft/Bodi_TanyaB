@@ -9,7 +9,7 @@
     <body>
 
         <!-- navigation -->
-        <div class="nav_wrapper nav">
+        <!-- <div class="nav_wrapper nav">
             
             <center><div>
                 <br>
@@ -36,10 +36,35 @@
                 <a class="link" href="#">Contact</a>
             </div></center>
 
-        </div>
+        </div> -->
 
         <!-- Name and picture -->
         
+        <div id="JavaSideBar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeSide()">&times;</a>
+            <a class="link" href="#">Welcome!</a>
+            <a class="link" href="#">Blogs</a>
+            <a class="link" href="#">Products</a>
+            <a class="link" href="#">Programs</a>
+            <a class="link" href="#">Join Today!</a>
+            <a class="link" href="#">Contact</a>
+        </div>
+
+        <div id="main">
+            <button class="openbtn" onclick="openSide()">&#9776;</button>
+        </div>
+
+        <script>
+            function openSide() {
+                document.getElementById("JavaSideBar").style.width = "250px";
+                document.getElementById("main").style.marginLeft = "250px";
+            }
+            
+            function closeSide() {
+                document.getElementById("JavaSideBar").style.width = "0";
+                document.getElementById("main").style.marginLeft = "0";
+            }
+        </script>
         
         <div class="banner">
             <div class="name_wrapper">

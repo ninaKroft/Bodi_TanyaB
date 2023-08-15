@@ -6,6 +6,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 12px;
     color: black;
+    text-decoration: none;
 }
 
 .nav_wrapper {
@@ -23,21 +24,22 @@
 .name_wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
-    grid-template-rows: 1fr; 
+    grid-auto-rows: 650px;
+    align-items: center
     
 }
 
 .first_name {
-    font-size: 30px;
-    color: black;
+    font-size: 50px;
+    color: #09095c;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     grid-column: 2 / 2;
     grid-row: 1 / 1;
 }
 
 .last_name {
-    font-size: 30px;
-    color:black;
+    font-size: 50px;
+    color:#09095c;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     grid-column: 4 / 4;
     grid-row: 1 / 1;
@@ -45,8 +47,8 @@
 
 .circle_img {
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
 }
 
 .icon_location {
@@ -54,3 +56,44 @@
     grid-row: 1 / 1;
 }
 
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:rgb(184, 182, 171);
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color:rgb(255, 255, 255);
+    display: block;
+    transition: 0.3;
+}
+
+.sidebar a:hover {
+    color:#09095c;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    color:#09095c;
+    padding: 10px 15px;
+    border: none;
+}
