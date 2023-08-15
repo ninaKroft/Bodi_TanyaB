@@ -47,8 +47,8 @@
 
 .circle_img {
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
 }
 
 .icon_location {
@@ -96,4 +96,6 @@
     color:#09095c;
     padding: 10px 15px;
     border: none;
+    position: fixed;
+    background-color: white;
 }
