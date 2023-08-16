@@ -64,8 +64,8 @@ html, body {
 }
 
 .description {
-    grid-column: 3 / 3;
-    grid-row: 2 / 5;
+    grid-column: 2 / 5;
+    grid-row: 3 / 3;
     font-size: 30px;
     color:#09095c;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -115,10 +115,19 @@ html, body {
     background-color: white;
 }
 
+
+.aboutme_wrapper {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+}
+
 .aboutme_style {
     background-color:beige;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 12px;
     text-decoration: none;
-    padding: 15px;
+    padding: 15px 15px 15px 15px;
+    color:rgb(45, 33, 9);
 }
+
