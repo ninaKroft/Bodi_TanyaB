@@ -118,8 +118,8 @@ html, body {
 
 .aboutme_wrapper {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 114px);
 }
 
 .aboutme_style {
@@ -127,7 +127,7 @@ html, body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 12px;
     text-decoration: none;
-    padding: 15px 15px 15px 15px;
+    padding: 60px 20px 20px 50px;
     color:rgb(45, 33, 9);
 }
 
