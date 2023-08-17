@@ -119,15 +119,19 @@ html, body {
 .aboutme_wrapper {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(12, 114px);
+    grid-template-rows: repeat(20, 114px);
 }
 
 .aboutme_style {
     background-color:beige;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 12px;
+    font-size: 20px;
     text-decoration: none;
     padding: 60px 20px 20px 50px;
     color:rgb(45, 33, 9);
 }
 
+.brown {
+    background-color: rgb(153, 134, 100);
+    border-radius: 50%;
+}
