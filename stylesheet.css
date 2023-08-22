@@ -127,11 +127,16 @@ html, body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     text-decoration: none;
-    padding: 60px 20px 20px 50px;
+    padding: 60px 0px 0px 0px;
     color:rgb(45, 33, 9);
 }
 
-.brown {
-    background-color: rgb(153, 134, 100);
-    border-radius: 50%;
+.brown_left {
+    background-color: rgb(205 189 161);
+    border-radius: 0px 150px 150px 0px;
+}
+
+.brown_right {
+    background-color: rgb(205 189 161);
+    border-radius: 150px 0px 0px 150px;
 }
